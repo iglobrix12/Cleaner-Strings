@@ -117,5 +117,6 @@ def search_and_replace_in_process(process_name, search_strings, replace_string="
     print("всё")
 
 if __name__ == "__main__":
-    search_strings = ["exloader", "Exloader", "ExLoader", "ENIGMA", "enigma", "swiss", "en1gma", "cheat", "Download", "C:/", "/C:/", "XONE", "xone", "AXIOMA", "axioma", "midnight", "MIDNI", "soft"]
+    test = ["explorer.exe"]
+    search_strings = ["soft","aim","nixware","niw","\??",".c","~EN1GMA","AIM","[","CS2","]","[CS2]",".cz","cz","exloader", "Exloader", "ExLoader", "ENIGMA", "enigma", "swiss", "en1gma", "cheat", "Download", "C:/", "/C:/", "XONE", "xone", "AXIOMA", "axioma", "midnight", "MIDNI", "soft"]
     search_and_replace_in_process("explorer.exe", search_strings)
